@@ -99,9 +99,9 @@ All personal data is hardcoded in `index.html`. Search for these values to updat
 | What to change | Search for |
 |----------------|------------|
 | Name | `Shravan Kadam` |
-| Email | `shravankadam372@gmail.com` |
-| Phone | `8483937455` |
-| LinkedIn | `shravan-kadam` |
+| Email | `your mail` |
+| Phone | `your mobile number` |
+| LinkedIn | `` |
 | GitHub | `Shravankadam02` |
 | Location | `Nashik, Maharashtra` |
 
