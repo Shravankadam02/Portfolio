@@ -2,7 +2,7 @@
 
 A modern, futuristic personal portfolio website built with pure HTML, CSS, and JavaScript. No frameworks, no dependencies — just clean, fast, production-ready code.
 
-🔗 **Live Demo:** *(Deploy and add your link here)*
+🔗 **Live Demo:** *https://shravankadam02.github.io/Portfolio/*
 
 ---
 
@@ -99,9 +99,9 @@ All personal data is hardcoded in `index.html`. Search for these values to updat
 | What to change | Search for |
 |----------------|------------|
 | Name | `Shravan Kadam` |
-| Email | `shravankadam372@gmail.com` |
-| Phone | `8483937455` |
-| LinkedIn | `shravan-kadam` |
+| Email | `your mail` |
+| Phone | `your mobile number` |
+| LinkedIn | `` |
 | GitHub | `Shravankadam02` |
 | Location | `Nashik, Maharashtra` |
 
