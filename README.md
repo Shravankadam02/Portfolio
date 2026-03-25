@@ -2,7 +2,7 @@
 
 A modern, futuristic personal portfolio website built with pure HTML, CSS, and JavaScript. No frameworks, no dependencies — just clean, fast, production-ready code.
 
-🔗 **Live Demo:** *(Deploy and add your link here)*
+🔗 **Live Demo:** *https://shravankadam02.github.io/Portfolio/*
 
 ---
 
