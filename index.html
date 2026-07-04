@@ -869,7 +869,7 @@
     <div class="about-grid">
       <div class="about-text fade-in">
         <p>
-          I'm <strong>Shravan Kadam</strong>, an Information Technology engineering student at <strong>MET BKC, Nashik</strong>, currently in my second year. I'm passionate about building products that solve real problems — not just writing code.
+          I'm <strong>Shravan Kadam</strong>, an Information Technology engineering student at <strong>MET BKC, Nashik</strong>, currently in my third year. I'm passionate about building products that solve real problems — not just writing code.
         </p>
         <p>
           Alongside my academics, I founded <strong>KrishiGo</strong> — an agri-equipment rental marketplace designed to make modern machinery accessible to small farmers across rural Maharashtra. I believe technology should reach the people who need it most.
@@ -915,8 +915,6 @@
           <span class="skill-tag">Python</span>
           <span class="skill-tag">C / C++</span>
           <span class="skill-tag">Java</span>
-          <span class="skill-tag">HTML</span>
-          <span class="skill-tag">CSS</span>
         </div>
       </div>
       <div class="skill-group fade-in">
@@ -926,9 +924,7 @@
           <span class="skill-tag">React</span>
           <span class="skill-tag">Node.js</span>
           <span class="skill-tag">Express</span>
-          <span class="skill-tag">Scikit-learn</span>
-          <span class="skill-tag">Pandas</span>
-          <span class="skill-tag">Streamlit</span>
+          <span class="skill-tag">Tailwind CSS</span>
         </div>
       </div>
       <div class="skill-group fade-in">
@@ -938,6 +934,7 @@
           <span class="skill-tag">MongoDB</span>
           <span class="skill-tag">PostgreSQL</span>
         </div>
+      
       </div>
       <div class="skill-group fade-in">
         <div class="skill-group-icon">🛠️</div>
@@ -945,8 +942,20 @@
         <div class="skill-tags">
           <span class="skill-tag">Git</span>
           <span class="skill-tag">GitHub</span>
-          <span class="skill-tag">VS Code</span>
-          <span class="skill-tag">Google Maps API</span>
+          <span class="skill-tag">Postman</span>
+          <span class="skill-tag">Vercel</span>
+        </div>
+      </div>
+       <div class="skill-group fade-in">
+        <div class="skill-group-icon">📚</div>
+        <div class="skill-group-title">CSE Fundamentals</div>
+        <div class="skill-tags">
+          <span class="skill-tag">DSA</span>
+          <span class="skill-tag">OOP</span>
+          <span class="skill-tag">OS</span>
+          <span class="skill-tag">RDBMS</span>
+          <span class="skill-tag">Computer Networks</span>
+          <span class="skill-tag">System Design Basics</span>
         </div>
       </div>
       <div class="skill-group fade-in">
@@ -978,80 +987,77 @@
         <div class="project-header">
           <div class="project-icon">🌾</div>
           <div class="project-links">
-            <span class="project-link" title="Coming Soon" style="cursor:default;">
+            <a href="https://github.com/Shravankadam02/KrishiGo.git" target="_blank" rel="noopener" class="project-link" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="https://krishigo.vercel.app/" target="_blank" rel="noopener" class="project-link" title="Live">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </span>
+            </a>
           </div>
         </div>
         <div>
           <span class="project-badge badge-startup">Startup · Founder</span>
           <div class="project-name">KrishiGo</div>
+          <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); margin-top: 0.3rem;">React · Node.js · Express.js · MongoDB · Razorpay · Cloudinary</div>
         </div>
-        <p class="project-desc">
-          A peer-to-peer agri-equipment rental marketplace connecting small farmers in rural Maharashtra with local equipment providers. Eliminates dependency on expensive machinery ownership through structured, on-demand rentals.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">MongoDB</span>
-          <span class="tech-tag">Express</span>
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">Node.js</span>
-          <span class="tech-tag">Maps API</span>
+        <div class="project-desc">
+          <ul>
+            <li>Full-stack rental marketplace connecting farmers and equipment owners across rural Maharashtra, with dedicated Farmer, Owner, and Admin dashboards under a 3-tier RBAC middleware system.</li>
+            <li>Integrated Razorpay for payments and designed a commission, penalty, and payout calculation engine, along with OTP verification and a dispute-resolution workflow.</li>
+            <li>Implemented Cloudinary/Multer-based media handling and a bilingual (English/Marathi) UI using i18n for non-English-speaking rural users.</li>
+            <li>Architected Mongoose schemas across Users, Bookings, Equipment, Payouts, and Disputes for a scalable multi-role transaction system.</li>
+          </ul>
         </div>
       </div>
 
-      <!-- SnackScout -->
+       <!-- AI-Powered E-Commerce Platform -->
       <div class="project-card fade-in">
         <div class="project-header">
-          <div class="project-icon">🍢</div>
+          <div class="project-icon">🛒</div>
           <div class="project-links">
-            <a href="https://shravankadam02.github.io/SnackScout/" target="_blank" rel="noopener" class="project-link" title="Live">
+            <a href="https://github.com/Shravankadam02/AI-Powered-E-commerce-website.git" target="_blank" rel="noopener" class="project-link" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="https://ai-powered-e-commerce-website-frontend-c2ag.onrender.com/" target="_blank" rel="noopener" class="project-link" title="Live">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
             </a>
-            <a href="https://github.com/Shravankadam02/SnackScout.git" target="_blank" rel="noopener" class="project-link" title="GitHub">
+          </div>
+        </div>
+        <div>
+          <span class="project-badge badge-web">Web App · AI</span>
+          <div class="project-name">AI-Powered E-Commerce Platform</div>
+          <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); margin-top: 0.3rem;">React.js · Node.js · Express.js · MongoDB</div>
+        </div>
+        <div class="project-desc">
+          <ul>
+            <li>Full-stack e-commerce platform with AI-driven smart search and personalized product discovery, supporting 50+ product listings across a responsive desktop and mobile experience.</li>
+            <li>Implemented secure authentication including Google OAuth and JWT tokens, reducing unauthorized access risk with industry-standard session management.</li>
+            <li>Designed a responsive frontend using React (Vite), Tailwind CSS, and Context API, backed by a scalable RESTful API with modular Admin, Frontend, and Backend separation.</li>
+          </ul>
+        </div>
+      </div>
+
+       <!-- Project Management App (Backend) -->
+      <div class="project-card fade-in">
+        <div class="project-header">
+          <div class="project-icon">🗂️</div>
+          <div class="project-links">
+            <a href="https://github.com/Shravankadam02/Project-Management-App.git" target="_blank" rel="noopener" class="project-link" title="GitHub">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             </a>
           </div>
         </div>
         <div>
-          <span class="project-badge badge-web">Web App</span>
-          <div class="project-name">SnackScout</div>
+          <span class="project-badge badge-ml">Backend · API</span>
+          <div class="project-name">Project Management App</div>
+          <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); margin-top: 0.3rem;">Node.js · Express.js · MongoDB · JWT</div>
         </div>
-        <p class="project-desc">
-          A location-based street food discovery platform — like a mini Zomato focused on local stalls. Shows nearby vendors, popular items, and ratings so users can quickly find the best street food in their area.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">HTML/CSS</span>
-          <span class="tech-tag">JavaScript</span>
-          <span class="tech-tag">Google Maps API</span>
-          <span class="tech-tag">Firebase</span>
-        </div>
-      </div>
-
-      <!-- Student Dropout Prediction -->
-      <div class="project-card fade-in">
-        <div class="project-header">
-          <div class="project-icon">📊</div>
-          <div class="project-links">
-            <a href="https://ai-based-student-dropout-prediction.onrender.com/" target="_blank" rel="noopener" class="project-link" title="Live">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
-            <a href="https://github.com/Shravankadam02/AI-Based-Student-Dropout-Prediction-System.git" target="_blank" rel="noopener" class="project-link" title="GitHub">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-            </a>
-          </div>
-        </div>
-        <div>
-          <span class="project-badge badge-ml">ML · Python</span>
-          <div class="project-name">Student Dropout Prediction</div>
-        </div>
-        <p class="project-desc">
-          An AI-powered system that predicts student dropout risk using academic and personal data. Helps institutions identify at-risk students early and take proactive action to improve retention rates.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">Scikit-learn</span>
-          <span class="tech-tag">Pandas</span>
-          <span class="tech-tag">Streamlit</span>
+        <div class="project-desc">
+          <ul>
+            <li>Production-ready RESTful API backend for a collaborative project management platform supporting project creation, task/subtask tracking, file attachments, and shared notes across multiple user roles.</li>
+            <li>Implemented full authentication lifecycle — JWT access/refresh tokens, bcrypt password hashing, Nodemailer email verification, and password reset flow.</li>
+            <li>Designed a 3-tier RBAC system (Admin, Project Admin, Member) with granular role-specific permissions for structured team collaboration.</li>
+          </ul>
         </div>
       </div>
 
@@ -1073,7 +1079,7 @@
         <div class="edu-meta">
           <span>📍 Nashik, Maharashtra</span>
           <span>📅 2024 — 2028</span>
-          <span>Semester IV</span>
+          <span>Semester V</span>
         </div>
         <div class="edu-courses">
           <span class="course-tag">DSA</span>
@@ -1113,7 +1119,7 @@
         github.com/Shravankadam02
       </a>
     </div>
-      <a href="resume.pdf" download class="resume-btn fade-in">
+      <a href="./Shravan_Kadam_FullStack_Resume.pdf" download class="resume-btn fade-in">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
       Download Resume
     </a>
